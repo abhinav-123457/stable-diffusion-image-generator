@@ -28,4 +28,12 @@ This project utilizes Stable Diffusion models to generate high-quality images. T
    ```bash
    git clone https://github.com/abhinav-123457/AI-Image-Generator.git
    cd image_ai.py
-2. Run the .py file and create your images 😊😁
+2. Run the .py file and generate your images 😊😁
+
+
+## Other way of using the ai 
+
+1. Go to "Google Collab" and create a notebook.
+2. Change the runtime to "T4 GPU"
+3. Copy the code and paste the code in code box.
+4. Enter the prompt into the prompt section given in the code to generate the image.
