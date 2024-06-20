@@ -25,15 +25,45 @@ This project utilizes Stable Diffusion models to generate high-quality images. T
 - Other dependencies as listed in `requirements.txt`
 
 ## Installation
-
-1. Clone the repository:
+## For VS code 
+1. Copy the packages to install :
    ```bash
+   !pip install --upgrade diffusers transformers torch accelerate 
+   !pip install Pillow
    git clone https://github.com/abhinav-123457/AI-Image-Generator.git
    cd image_ai.py
-2. Run the .py file and generate your images 😊😁
+2. Copy the code and pste in vs code:
+   ```bash
+   from diffusers import StableDiffusionPipeline
+   import torch
+   import matplotlib.pyplot as plt
+   from PIL import Image
+   #LOADING THE MODEL
+   device = "cuda" if torch.cuda.is_available() else "cpu"
+   print(f"Using device: {device}")
+
+   pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5", torch_dtype=torch.float16 ,safety_checker = None, requires_safety_checker = False)
+   pipe = pipe.to(device)
+   #GENERATIN THE IMAGE
+   def generate_image(prompt, num_inference_steps=50, guidance_scale=7.5):
+       with torch.autocast("cuda"):
+           image = pipe(prompt, num_inference_steps=num_inference_steps, guidance_scale=guidance_scale).images[0]
+    return image
+
+   # Example usage
+   prompt = "a porche"
+   generated_image = generate_image(prompt)
+
+   # Display the generated image
+   plt.imshow(generated_image)
+   plt.axis("off")  # Hide the axes
+   plt.show()
 
 
-## Other way of using the ai 
+2. Run the code and generate your images 😊😁
+
+
+## Other way of using the code using "Google Collab": 
 
 1. Go to "Google Collab" and create a notebook.
 2. Change the runtime to "T4 GPU"
