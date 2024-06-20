@@ -21,7 +21,6 @@ This project utilizes Stable Diffusion models to generate high-quality images. T
 - PyTorch
 - Stable Diffuser
 - Pillow
-- Other dependencies as listed in `requirements.txt`
 
 ## Languages Used:
 
