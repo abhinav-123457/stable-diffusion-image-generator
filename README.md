@@ -2,9 +2,10 @@
 "A project to generate high-quality images using Stable Diffusion models. This project includes code for setting up and running image generation, customizing the generated content, and ensuring appropriate filters for NSFW content."  Feel free to modify it to better suit your project specifics.
 # Stable Diffusion Image Generator
 
-![Project Image](Resultimage(1).png)
+![Project Image](image.png) 
 
 ## Description
+![Project_Image](Resultimage(1).png)
 
 This project utilizes Stable Diffusion models to generate high-quality images. The Stable Diffusion technique gradually refines images by iteratively adding noise to the input, resulting in visually appealing outputs. This repository provides code for setting up, running, and customizing the image generation process.
 
