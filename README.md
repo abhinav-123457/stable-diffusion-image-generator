@@ -62,9 +62,9 @@ This project utilizes Stable Diffusion models to generate high-quality images. T
 2. Run the code and generate your images 😊😁
 
 
-## Other way of using the code using "Google Collab": 
+## Other way of using the code using "Google Collab" :
 
 1. Go to "Google Collab" and create a notebook.
 2. Change the runtime to "T4 GPU"
-3. Copy the code and paste the code in code box.
+3. Copy the code from "image_ai.py" and paste the code in code box.
 4. Enter the prompt into the prompt section given in the code to generate the image.
