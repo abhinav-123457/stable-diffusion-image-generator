@@ -28,10 +28,9 @@ This project utilizes Stable Diffusion models to generate high-quality images. T
 ## For VS code 
 1. Copy the packages to install :
    ```bash
-   !pip install --upgrade diffusers transformers torch accelerate 
-   !pip install Pillow
-   git clone https://github.com/abhinav-123457/AI-Image-Generator.git
-   cd image_ai.py
+   pip install --upgrade diffusers transformers torch accelerate 
+   pip install Pillow
+   
 2. Copy the code and pste in vs code:
    ```bash
    from diffusers import StableDiffusionPipeline
