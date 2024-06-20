@@ -72,5 +72,5 @@ This project utilizes Stable Diffusion models to generate high-quality images. T
 3. Copy the code from "image_ai.py" and paste the code in code box.
 4. Enter the prompt into the prompt section given in the code to generate the image.
 
-##Creator
+## Creator
 Created and developed by Abhinav Shakya
