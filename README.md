@@ -24,6 +24,10 @@ This project utilizes Stable Diffusion models to generate high-quality images. T
 - Pillow
 - Other dependencies as listed in `requirements.txt`
 
+## Languages Used:
+
+ - Python
+
 ## Installation
 ## For VS code 
 1. Copy the packages to install :
@@ -68,3 +72,6 @@ This project utilizes Stable Diffusion models to generate high-quality images. T
 2. Change the runtime to "T4 GPU"
 3. Copy the code from "image_ai.py" and paste the code in code box.
 4. Enter the prompt into the prompt section given in the code to generate the image.
+
+##Creator
+Created and developed by Abhinav Shakya
