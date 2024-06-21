@@ -4,11 +4,11 @@
 ![Project Image](image.png) 
 
 ## Description
-![Project_Image](Resultimage(1).png)   ![Project_Image](Result(2).png)
-
 
 This project utilizes Stable Diffusion models to generate high-quality images. The Stable Diffusion technique gradually refines images by iteratively adding noise to the input, resulting in visually appealing outputs. This repository provides code for setting up, running, and customizing the image generation process.
 
+
+![Project_Image](Resultimage(1).png)   ![Project_Image](Result(2).png)
 ## Features
 
 - **Image Generation**: Utilize Stable Diffusion models to generate diverse and high-quality images.
