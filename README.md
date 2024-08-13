@@ -33,7 +33,7 @@ This project utilizes Stable Diffusion models to generate high-quality images. T
    pip install --upgrade diffusers transformers torch accelerate 
    pip install Pillow
    
-2. Copy the code and pste in vs code:
+2. Copy the code and paste in vs code:
    ```bash
    from diffusers import StableDiffusionPipeline
    import torch
